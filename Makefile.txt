@@ -1,0 +1,7 @@
+Compiling and running instructions:
+
+All the files should be in the same folder
+
+On your terminal(mac)execute the following commands-
+for compiling-  javac MyServer.java
+to run the program- java MyServer1 -document_root / -port 8080
