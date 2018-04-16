@@ -24,8 +24,16 @@
 
 	
 # Instructions for running program:
-- This program is executed on port 8080
-- open the browser and give the address as localhost:8080
+javac MyServer1.java
+java MyServer1 -document_root "/path/to/webserver_files" -port 8080
+ 	# open the browser and give the address as localhost:8080
+
+
+	# open another terminal
+telnet localhost 8080
+get / HTTP/1.1
+
+
 
 # References:
 1. https://www.youtube.com/watch?v=G4Z2PQfOHdY
